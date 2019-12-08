@@ -2,6 +2,9 @@ with open('6/input.txt', 'r') as inputfile:
     inputs = inputfile.readlines()
     inputs = [row.replace('\n', '').split(')') for row in inputs]
 
+import time
+start = time.time()
+
 test_input = [['COM', 'B'],
                 ['B','C'],
                 ['C','D'],
